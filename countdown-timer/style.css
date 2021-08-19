@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./nye.jpg");
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+h1{
+    font-weight: bold;
+    font-size:4rem;
+    margin-top: -10rem;
+    color: azure;
+
+}
+
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:azure;
+
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin:1rem 2rem;
+}
+.countdown-el{
+    font-weight: bold;
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 2.5rem;
+}
